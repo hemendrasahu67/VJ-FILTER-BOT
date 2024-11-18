@@ -1481,7 +1481,7 @@ async def give_premium_cmd_handler(client, message):
     else:
         await message.reply_text("<b>Usage: /add_premium user_id time \n\nExample /add_premium 1252789 10day \n\n(e.g. for time units '1day for days', '1hour for hours', or '1min for minutes', or '1month for months' or '1year for year')</b>")
         
-@Client.on_message(filters.command("remove_premium"))
+@Client.on_message(filters.command("remove_premiummm"))
 async def remove_premium_cmd_handler(client, message):
     if PREMIUM_AND_REFERAL_MODE == False:
         return 
@@ -1508,7 +1508,7 @@ async def remove_premium_cmd_handler(client, message):
     else:
         await message.reply_text("Usage: /remove_premium user_id")
         
-@Client.on_message(filters.command("plan"))
+@Client.on_message(filters.command("plannn"))
 async def plans_cmd_handler(client, message): 
     if PREMIUM_AND_REFERAL_MODE == False:
         return 
@@ -1523,7 +1523,7 @@ async def plans_cmd_handler(client, message):
         reply_markup=reply_markup
     )
         
-@Client.on_message(filters.command("myplan"))
+@Client.on_message(filters.command("myplannn"))
 async def check_plans_cmd(client, message):
     if PREMIUM_AND_REFERAL_MODE == False:
         return 
