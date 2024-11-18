@@ -6,7 +6,7 @@
 class script(object):
     START_TXT = """<b><blockquote>Hello Bru {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
-🔰UNLIMITED MOVIES STORE \n\n🔰SEARCH YOU'RE FAVERAIT NEW AND OLD MOVIES \n\n 🔰100m+ MOVIES AVAILABLE 🔥</b>"""
+🔰UNLIMITED MOVIES STORE \n\n🔰SEARCH YOU'RE FAVERAIT NEW AND OLD MOVIES \n\n 🔰100m+ MOVIES AVAILABLE 🔥\n\n ⚠️ watch @DIAMOND_MOVIES_TUTORIAL for \nmore information about how to use...❓</b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
