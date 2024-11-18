@@ -116,7 +116,7 @@ VERIFY_SHORTLINK_API = environ.get('VERIFY_SHORTLINK_API', '843ef9c59c5673a3b9a1
 # if verify second shortner is True then fill below url and api
 VERIFY_SND_SHORTLINK_URL = environ.get('VERIFY_SND_SHORTLINK_URL', 'instantlinks.co')
 VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '843ef9c59c5673a3b9a1caf6a80bff012aa0a7fd')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/How_To_Open_Linkl')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/HOW_TO_VERIFY_LINKK')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
