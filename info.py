@@ -53,7 +53,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 # MongoDB information
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://gcute1918:Pk9SuTfVDG5UiNPM@cluster0.sjxkt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mh:qFECbQkAflJ4Teqd@cluster0.c64io4v.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # IF Multiple Database Is False Then Fill Only This Database Url.
 if MULTIPLE_DATABASE == False:
     USER_DB_URI = DATABASE_URI
     OTHER_DB_URI = DATABASE_URI
@@ -65,8 +65,8 @@ else:
     FILE_DB_URI = environ.get('FILE_DB_URI', "mongodb+srv://Db2:hagsgahahsh@cluster0.erufj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db Is For File Data Store
     SEC_FILE_DB_URI = environ.get('SEC_FILE_DB_URI', "mongodb+srv://db3:nDnePEfnM7gdGxx0@cluster0.93uxv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db is for File Data Store When First Db Is Going To Be Full.
     
-DATABASE_NAME = environ.get('DATABASE_NAME', "diamond")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'diamond')
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Files')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
