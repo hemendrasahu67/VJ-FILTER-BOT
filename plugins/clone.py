@@ -11,7 +11,7 @@ from database.users_chats_db import db
 import re
 from Script import script
 
-@Client.on_message(filters.command('clone'))
+@Client.on_message(filters.command('cloneee'))
 async def clone_menu(client, message):
     if CLONE_MODE == False:
         return 
