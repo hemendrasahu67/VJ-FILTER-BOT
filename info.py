@@ -86,7 +86,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/DIAMOND_MOVIIES_REQUEST')
 CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/DIAMOND_MOVIIES')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HOW_TO_VERIFY_LINKK')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'DIAMOND_MOVIESS_BOT') # Support Chat Link Without https:// or @
 
 # True Or False
